@@ -1,0 +1,14 @@
+<div id="joinButtons" class="text-center">
+    <p class="d-inline">Your Unique ID: </p>
+    <p id="yourID" class="border border-dark d-inline">{{uuid}}</p>
+    <div class="my-5">
+        <input [(ngModel)]="peerID" type="text" placeholder="Peer's ID">
+        <button class="btn btn-success btn-outline-light mx-3" (click)="callUser()" type="submit">Join</button>
+        <button id="end-call" class="btn btn-danger btn-outline-light" (click)="endCall()">End Call</button>
+    </div>
+</div>
+
+<div id="live">
+    <video id="remote-video"></video>
+    <video id="local-video" muted="true"></video>
+</div>
