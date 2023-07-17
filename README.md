@@ -1,7 +1,7 @@
 # Simpleet
 
-A Simple Meeting Web Application for one-on-one meetings.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+A Simple Meeting Web Application for one-on-one meetings. <br>
+This project was developed with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1 and Bootstrap version 5.
 
 ---
 
